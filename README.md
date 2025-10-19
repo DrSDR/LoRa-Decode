@@ -39,7 +39,7 @@ first 8 bits:   01000001 ,   or char A
 signal is under noise
 
 to decode signal,
-multiply symbol by  exp(-1i*pi*slope*t.^2) 
+multiply symbol by  exp( -1i * pi * slope * t.^2 ) 
 then fft the product, to detect tone:    -1khz or 1khz  
 
 text is amazon gift card
