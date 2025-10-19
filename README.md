@@ -15,9 +15,9 @@ t = [dt:dt:pw];
 t = t - pw/2;
 
 
-x1 = pi * slope * t.^2  +  2*pi*1e3*t;
+x1 = pi * slope * t.^2  +  2 *pi *1e3 *t;
 
-x2 = pi * slope * t.^2  -  2*pi*1e3*t;
+x2 = pi * slope * t.^2  -  2 *pi* 1e3* t;
 
 
 
